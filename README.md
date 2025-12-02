@@ -1,5 +1,8 @@
 # GD-JAAR2-PROG
 
+
+# M5
+
 Functions, Methods, Parameters & return type.
 
 PROG les 1: Herhaling Functions, Classes en Arrays.
@@ -21,3 +24,9 @@ PROG Les 3:
 SCRIPT: https://github.com/Luxin079/kevin-en-mads-avontuurtje/blob/main/Assets/PROG%20SCRIPTS/EnemySpawner.cs
 
 
+
+# M6
+
+Opdaracht Class Diagrams
+
+<img width="7783" height="5702" alt="ClassDiagramTowerDefense" src="https://github.com/user-attachments/assets/06e729c7-9c50-49ee-8d97-f5b770ef6351" />
