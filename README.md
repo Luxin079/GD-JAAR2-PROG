@@ -31,4 +31,182 @@ Opdracht 1
 
 Opdaracht Class Diagrams
 
-<img width="7783" height="5702" alt="ClassDiagramTowerDefense" src="https://github.com/user-attachments/assets/06e729c7-9c50-49ee-8d97-f5b770ef6351" />
+
+```mermaid
+
+classDiagram
+    class BuildManager {
+        -GameObject selectedTowerPrefab
+        -GameObject previewTower
+        -Renderer[] previewRenderers
+        -MonoBehaviour[] previewBehaviours
+        -Camera cam
+        +float towerHeightOffset
+        +string allowedTag
+        +void SetSelectedTower(GameObject)
+    }
+    
+    class GameManager {
+        +int startingMoney
+        +int money
+        +TextMeshProUGUI moneyText
+        +bool SpendMoney(int)
+        +void AddMoney(int)
+    }
+    
+    class MoneyManager {
+        -TextMeshProUGUI moneyTxt
+        -int startingMoney
+        -int money
+        +bool CanSpend(int)
+        +void SpendMoney(int)
+        +void AddMoney(int)
+    }
+    
+    class GameHealthManager {
+        -int maxLives
+        -int currentLives
+        -bool isGameOver
+        -TextMeshProUGUI livesText
+        -GameObject gameOverPanel
+        +void LoseLife()
+        +bool IsGameOver
+        +int GetLives()
+    }
+    
+    class WaveSpawner {
+        -Wave[] waves
+        -int currentWaveIndex
+        -Transform spawnPoint
+        -float timeBetweenWaves
+        -float waveCountdown
+        -bool isSpawning
+        -TextMeshProUGUI waveText
+        -int totalWaveCount
+        -IEnumerator SpawnWave(Wave)
+        -void SpawnEnemy(GameObject)
+    }
+    
+    class WaypointHolder {
+        +List~Transform~ wayPoints
+        +List~Transform~ GetWayPoints()
+    }
+    
+    class BombarioTower {
+        +float range
+        +float fireRate
+        -float fireCountdown
+        +string enemyTag
+        +Transform firePoint
+        +GameObject bulletPrefab
+        -Transform target
+        +Transform CurrentTarget
+        +void UpdateTarget()
+        +void Shoot()
+    }
+    
+    class SniperinoTower {
+        +float range
+        +float fireRate
+        -float fireCountdown
+        +string enemyTag
+        +Transform firePoint
+        +GameObject bulletPrefab
+        -Transform target
+        +Transform CurrentTarget
+        +void UpdateTarget()
+        +void Shoot()
+    }
+    
+    class ZaperinoTower {
+        +float range
+        +float fireRate
+        -float fireCountdown
+        +string enemyTag
+        +Transform firePoint
+        +GameObject bulletPrefab
+        -Transform target
+        +Transform CurrentTarget
+        +void UpdateTarget()
+        +void Shoot()
+    }
+    
+    class TowerStatus {
+        +int towerCost
+    }
+    
+    class TowerButton {
+        +GameObject towerPrefab
+        -Button button
+        -void OnButtonClick()
+    }
+    
+    class FirePointAim {
+        +BombarioTower tower
+    }
+    
+    class BombarioBullet {
+        +float speed
+        +int damage
+        -Transform target
+        +void SetTarget(Transform)
+    }
+    
+    class SniperinoBullet {
+        +float speed
+        +int damage
+        +float lifeTime
+        -Rigidbody2D rb
+        +void Fire(Vector2)
+    }
+    
+    class ZaperinoBullet {
+        +float speed
+        +float slowAmount
+        +float slowDuration
+        +int damage
+        -Transform target
+        +void SetTarget(Transform)
+    }
+    
+    class EnemyMover {
+        +float moveSpeed
+        +int maxHealth
+        -int currentHealth
+        -List~Transform~ waypoints
+        -int currentIndex
+        -float currentSpeed
+        -Coroutine slowRoutine
+        +bool TakeDamage(int)
+        +void ApplySlow(float, float)
+        -IEnumerator SlowEffect(float, float)
+    }
+    
+    class Wave {
+        +string waveName
+        +EnemyGroup[] enemyGroups
+    }
+    
+    class EnemyGroup {
+        +GameObject enemyPrefab
+        +int count
+        +float spawnRate
+    }
+    
+    BuildManager --> TowerStatus
+    BuildManager --> MoneyManager
+    TowerButton --> BuildManager
+    BombarioTower --> BombarioBullet
+    SniperinoTower --> SniperinoBullet
+    ZaperinoTower --> ZaperinoBullet
+    BombarioBullet --> EnemyMover
+    SniperinoBullet --> EnemyMover
+    ZaperinoBullet --> EnemyMover
+    EnemyMover --> WaypointHolder
+    EnemyMover --> GameHealthManager
+    WaveSpawner --> EnemyMover
+    WaveSpawner --> MoneyManager
+    WaveSpawner --> GameHealthManager
+    FirePointAim --> BombarioTower
+
+```
