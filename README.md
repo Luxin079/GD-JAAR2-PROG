@@ -27,6 +27,8 @@ SCRIPT: https://github.com/Luxin079/kevin-en-mads-avontuurtje/blob/main/Assets/P
 
 # M6
 
+Opdracht 1
+
 Opdaracht Class Diagrams
 
 <img width="7783" height="5702" alt="ClassDiagramTowerDefense" src="https://github.com/user-attachments/assets/06e729c7-9c50-49ee-8d97-f5b770ef6351" />
