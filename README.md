@@ -34,7 +34,7 @@ Code Conventies in Unity
 ![M6 Prog op1](https://github.com/user-attachments/assets/023e9edb-6e44-45c4-82c7-37fef0afbac5)
 
 
-![M6 Prog op1](https://github.com/user-attachments/assets/47480a1d-b1d4-4315-8de1-02064ba519ba)
+https://github.com/Luxin079/kevin-en-mads-avontuurtje/tree/main/Assets/scripts/M6%20SCRIPTS/Opdracht%201%20scripts
 
 
 Opdracht 2
