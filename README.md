@@ -32,6 +32,7 @@ Opdracht 1
 Code Conventies in Unity
 
 
+![M6 Prog op1](https://github.com/user-attachments/assets/47480a1d-b1d4-4315-8de1-02064ba519ba)
 
 
 Opdracht 2
