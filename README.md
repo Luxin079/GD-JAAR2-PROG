@@ -29,6 +29,13 @@ SCRIPT: https://github.com/Luxin079/kevin-en-mads-avontuurtje/blob/main/Assets/P
 
 Opdracht 1
 
+Code Conventies in Unity
+
+
+
+
+Opdracht 2
+
 Opdaracht Class Diagrams
 
 
