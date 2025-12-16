@@ -220,3 +220,15 @@ classDiagram
     FirePointAim --> BombarioTower
 
 ```
+
+
+Opdracht 3
+
+Opdaracht Data Structures
+
+![M6 Prog op3](https://github.com/user-attachments/assets/89bff35d-ef1d-4478-825d-f1f456afd9f6)
+
+Scripts: https://github.com/Luxin079/kevin-en-mads-avontuurtje/tree/main/Assets/scripts/M6%20SCRIPTS/Opdracht%203%20scripts
+
+
+
