@@ -235,8 +235,9 @@ Opdracht 7
 
 Easy Return
 
-public bool IsPlayerReadyToAttack(Player player)
-{
+    public bool IsPlayerReadyToAttack(Player player)
+{   
+
     if (player == null) return false;
     if (!player.IsAlive) return false;
     if (player.AttackCooldown > 0) return false;
@@ -257,7 +258,7 @@ public bool IsPlayerReadyToAttack(Player player)
     if (player.IsStunned) return false;
     if (player.IsSlowed) return false;
 
-    return true;
+     return true;
 }
 
 
