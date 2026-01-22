@@ -242,6 +242,8 @@ Opdracht 5
 
 Opdracht Abstraction
 
+Unity error geen gif beschikbaar
+
 Scripts: https://github.com/Luxin079/kevin-en-mads-avontuurtje/tree/main/Assets/scripts/M6%20SCRIPTS/Opdracht%205%20scripts
 
 Opdracht 6
