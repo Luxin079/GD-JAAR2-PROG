@@ -238,7 +238,13 @@ Opdracht Delegates
 
 Scripts: https://github.com/Luxin079/kevin-en-mads-avontuurtje/tree/main/Assets/scripts/M6%20SCRIPTS/Opdracht%204%20scripts
 
+Opdracht 6
 
+Opdracht Polymohism
+
+![opdracdht 6 m6](https://github.com/user-attachments/assets/879a51b5-0fcc-4da1-82c1-fe41aed379c2)
+
+Scripts: https://github.com/Luxin079/kevin-en-mads-avontuurtje/tree/main/Assets/scripts/M6%20SCRIPTS/Opdracht%206%20scripts
 
 Opdracht 7 
 
