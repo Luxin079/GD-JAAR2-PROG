@@ -1,4 +1,4 @@
-# GD-JAAR2-PROG
+ GD-JAAR2-PROG
 
 
 # M5
@@ -229,6 +229,15 @@ Opdaracht Data Structures
 ![M6 Prog op3](https://github.com/user-attachments/assets/89bff35d-ef1d-4478-825d-f1f456afd9f6)
 
 Scripts: https://github.com/Luxin079/kevin-en-mads-avontuurtje/tree/main/Assets/scripts/M6%20SCRIPTS/Opdracht%203%20scripts
+
+Opdracht 4
+
+Opdracht Delegates
+
+![opdracdht 4 m6](https://github.com/user-attachments/assets/e52f22d4-3cbb-479e-83da-fb1d70243e18)
+
+Scripts: https://github.com/Luxin079/kevin-en-mads-avontuurtje/tree/main/Assets/scripts/M6%20SCRIPTS/Opdracht%204%20scripts
+
 
 
 Opdracht 7 
